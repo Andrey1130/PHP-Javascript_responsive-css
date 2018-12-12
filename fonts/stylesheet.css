@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia.woff2') format('woff2'),
+        url('Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

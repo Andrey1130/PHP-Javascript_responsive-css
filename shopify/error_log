@@ -1,0 +1,240 @@
+[22-Nov-2018 17:52:04 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No method can handle the product config key in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:360
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/upload.php(43): GuzzleHttp\Client->post('/admin/products...', Array)
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 360
+[22-Nov-2018 17:54:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GuzzleHttp\Client::post() must be of the type array, string given, called in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 44 and defined in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php:148
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/upload.php(44): GuzzleHttp\Client->post('/admin/products...', '{"product":{"ti...')
+#1 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php on line 148
+[22-Nov-2018 17:56:29 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/upload.php(44): GuzzleHttp\Client->post('/admin/products...', Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 17:58:41 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/upload.php(44): GuzzleHttp\Client->post('/admin/products...', Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 17:59:04 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/upload.php(44): GuzzleHttp\Client->post('/admin/products...', Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 18:03:53 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 36
+[22-Nov-2018 18:04:45 UTC] PHP Notice:  Undefined index: product_price in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 9
+[22-Nov-2018 18:04:45 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 18:05:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 18:06:31 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', Array, Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 18:06:35 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', Array, Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 18:06:57 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: allow_redirects must be true, false, or array in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:203
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', Array, Array, '{"product":{"ti...')
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 203
+[22-Nov-2018 18:09:46 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Ring\Exception\RingException: cURL error 3: <url> malformed in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:127
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(91): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Array, Array, Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(96): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Array, Array, Array, Array, Resource id #63)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHtt in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[22-Nov-2018 18:10:08 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GuzzleHttp\Client::post() must be of the type array, string given, called in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 36 and defined in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php:148
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', '{"product":{"ti...')
+#1 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php on line 148
+[22-Nov-2018 18:11:32 UTC] PHP Notice:  Array to string conversion in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 35
+[22-Nov-2018 18:11:32 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No method can handle the product config key in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php:360
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php(98): GuzzleHttp\Message\MessageFactory->applyOptions(Object(GuzzleHttp\Message\Request), Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(120): GuzzleHttp\Message\MessageFactory->createRequest('POST', '/admin/products...', Array)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Client.php(150): GuzzleHttp\Client->createRequest('POST', '/admin/products...', Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/create_prod.php(36): GuzzleHttp\Client->post('/admin/products...', Array)
+#4 {main}
+  thrown in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php on line 360
+[22-Nov-2018 18:13:09 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Ring\Exception\RingException: cURL error 3: <url> malformed in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:127
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(91): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Array, Array, Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(96): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Array, Array, Array, Array, Resource id #60)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHtt in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[22-Nov-2018 18:14:04 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:16:13 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 36
+[22-Nov-2018 18:17:20 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:23:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:23:09 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:23:12 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:24:32 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:24:37 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:29:16 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:30:20 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:30:26 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:31:11 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:31:13 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:31:15 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:31:16 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:31:36 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:33:19 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:33:21 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json/admin/products.json [status code] 406 [reason phrase] Not Acceptable in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/publ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:34:01 UTC] PHP Notice:  Undefined variable: url in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 31
+[22-Nov-2018 18:35:17 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Ring\Exception\RingException: cURL error 3: <url> malformed in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:127
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(91): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Array, Array, Array)
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(96): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Array, Array, Array, Array, Resource id #63)
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHtt in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[22-Nov-2018 18:36:04 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json [status code] 400 [reason phrase] Bad Request in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/public_html/shopify/guzzle/ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:36:35 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error response [url] https://4cc6cd6b81125b51affcdb1b782af8a9:8486a0a5ac52da79bbbe4bc53e40f04c@les-amis-homme.myshopify.com/admin/products.json [status code] 400 [reason phrase] Bad Request in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(32): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(108): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /home/ah24j91ko7bl/public_html/shopify/guzzle/ in /home/ah24j91ko7bl/public_html/shopify/guzzle/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[22-Nov-2018 18:37:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/ah24j91ko7bl/public_html/shopify/create_prod.php on line 30
+[22-Nov-2018 18:46:12 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 40
+[22-Nov-2018 18:46:54 UTC] PHP Notice:  Undefined variable: url in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 44
+[22-Nov-2018 18:47:19 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 42
+[23-Nov-2018 10:05:21 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 34
+[25-Nov-2018 12:44:36 UTC] PHP Parse error:  syntax error, unexpected '"metafields"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 45
+[25-Nov-2018 12:45:19 UTC] PHP Parse error:  syntax error, unexpected '"metafields"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 45
+[25-Nov-2018 12:46:02 UTC] PHP Parse error:  syntax error, unexpected '"metafields"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 45
+[25-Nov-2018 12:46:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 56
+[25-Nov-2018 12:53:53 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/ah24j91ko7bl/public_html/shopify/upload.php on line 24
